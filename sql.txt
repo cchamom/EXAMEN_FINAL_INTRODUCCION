@@ -1,0 +1,19 @@
+use Final_0907_23_11907;
+
+CREATE TABLE Producato (
+    Codigo int(20) not null,
+    Nombre varchar(20) not null,
+    Precio int(20) not null,
+    Exitencia varchar(20)
+    )      
+
+
+Use Final_0907_23_11907; 
+ 
+  Insert into Producato(Codigo,Nombre,Precio,Exitencia)
+          Values ('8334883', 'Aceite', '13.3', '15'),
+                 ('7224724', 'Frijo', '5.5', '10'),
+                 ('9384224','Coca-Coloa','18','17'),
+                 ('839248','Azucar','5.5','10'),
+                 ('236465', 'Tortrix', '1.50','15')
+
